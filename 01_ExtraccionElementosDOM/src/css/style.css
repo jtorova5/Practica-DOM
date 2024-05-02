@@ -1,0 +1,12 @@
+
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    font-family: "Coming Soon", cursive;
+}
+
+h1 {
+    text-align: center;
+}
