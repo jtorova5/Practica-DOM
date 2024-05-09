@@ -1,12 +1,18 @@
 
 export function listWithInnerHTML(coders, tbody) {
+        tbody.innerHTML = ``
     coders.forEach(coder => {
         tbody.innerHTML += `
     <tr>
         <th scope="row">${coder.id}</th>
         <td>${coder.name}</td>
         <td>${coder.lastName}</td>
-        <td>${coder.email}</td>
+        <td class="text-lowercase">${coder.email}</td>
+        <td class="d-flex gap-1 justify-content-center">
+            <button type="button" data-id="${coder.id} "class="btn btn-warning">details
+            <button type="button" data-id="${coder.id} "class="btn btn-primary">edit
+            <button type="button" data-id="${coder.id} "class="btn btn-danger">delete
+        </td>
     </tr>
     `
     })
@@ -33,4 +39,14 @@ function listWithBasicElements(coders, tbody) {
         
         tbody.appendChild(tr)
     })
+}
+
+export function create(coders, name, lastName, email) {
+    const tempCoder = {
+        id: Date.now(),
+        name: name.value,
+        lastName: lastName.value,
+        email: email.value
+    }
+    coders.push(tempCoder)
 }

@@ -9,15 +9,39 @@
 
 <body>
     <header></header>
-    <main class="m-5">
+    <main class="container my-3">
+
+        <form action="./index.html" id="form" method="post" class="container text-capitalize">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name(s)" required>
+                <label for="name">Name(s)</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last name" required>
+                <label for="last-name">Last name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" id="btn-save" class="btn btn-success">Save</button>
+                <button type="reset" class="btn btn-danger">Cancelar</button>
+            </div>
+        </form>
+
         <table class="table caption-top table-striped table-hover table-bordered table-sm align-middle text-center">
-            <caption>List of users</caption>
+            <caption>List of coders</caption>
             <thead>
                 <tr class="table-success">
                     <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Last Name</th>
-                    <th scope="col">Email</th>
+                    <th scope="col">name</th>
+                    <th scope="col">last Name</th>
+                    <th scope="col">email</th>
+                    <th scope="col">options</th>
                 </tr>
             </thead>
             <tbody class="table-group-divider"></tbody>
