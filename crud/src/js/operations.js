@@ -1,4 +1,5 @@
 
+// mostrar listado de coders
 export function listWithInnerHTML(coders, tbody) {
         tbody.innerHTML = ``
     coders.forEach(coder => {
@@ -41,6 +42,7 @@ function listWithBasicElements(coders, tbody) {
     })
 }
 
+// crear coder
 export function create(coders, name, lastName, email) {
     const tempCoder = {
         id: Date.now(),
