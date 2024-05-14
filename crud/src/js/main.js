@@ -17,7 +17,7 @@ let idUpdate
 // mostrando coders de la base de datos
 listWithInnerHTML(coders, tbody)
 
-// agregando coder
+// agregando coder - actualizando coder
 form.addEventListener('submit', (event) => {
     if (idUpdate === undefined) {
         create(coders, name, lastName, email)
