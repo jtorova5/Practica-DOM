@@ -10,8 +10,8 @@ export function listWithInnerHTML(coders, tbody) {
         <td>${coder.lastName}</td>
         <td class="text-lowercase">${coder.email}</td>
         <td class="d-flex gap-1 justify-content-center">
-            <button type="button" data-id="${coder.id} "class="btn btn-warning">details
-            <button type="button" data-id="${coder.id} "class="btn btn-primary">edit
+            <button type="button" data-id="${coder.id} "class="btn btn-primary">details
+            <button type="button" data-id="${coder.id} "class="btn btn-warning">edit
             <button type="button" data-id="${coder.id} "class="btn btn-danger">delete
         </td>
     </tr>
@@ -51,4 +51,13 @@ export function create(coders, name, lastName, email) {
         email: email.value
     }
     coders.push(tempCoder)
+}
+
+// eliminar coder
+export function deleteCoder(coders, idDelete) {
+    coders.forEach((coder, index) => {
+        if (coder.id == idDelete) {
+            coders.splice(index, 1)
+        }
+    })
 }
