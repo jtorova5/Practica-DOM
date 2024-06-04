@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar d-flex justify-content-between navbar-expand-lg navbar-dark bg-dark px-5">
+            <a class="navbar-brand" href="#">Dashboard</a>
+            <button id="btn-log-out" class="btn btn-info" type="button">Log out</button>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <form>
+                <div class="mb-3">
+                    <label for="title" class="form-label">title</label>
+                    <input type="text" class="form-control" id="title">
+                    <div class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">comment</label>
+                    <input type="text" class="form-control" id="comment">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <section class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">title</th>
+                        <th scope="col">comment</th>
+                        <th scope="col">status</th>
+                        <th scope="col">options</th>
+                    </tr>
+                </thead>
+
+                <tbody></tbody>
+
+            </table>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script type="module" src="./../js/main.js"></script>
+    <script type="module" src="./../js/dashboard.js"></script>
+</body>
+
+</html>
