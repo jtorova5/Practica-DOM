@@ -1,0 +1,132 @@
+{
+    "users": [
+        {
+            "id": "42a1",
+            "username": "Jhon",
+            "lastName": "Toro",
+            "email": "jtorova5@gmail.com",
+            "password": "123"
+        },
+        {
+            "id": "8fdd",
+            "username": "Majo",
+            "lastName": "Pino",
+            "email": "majito@gmail.com",
+            "password": "123"
+        }
+    ],
+    "rooms": [
+        {
+            "id": "a0ea",
+            "roomNumber": "1",
+            "roomType": "Single",
+            "price": "80.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Not included",
+                "wifi": "Included",
+                "airConditioning": "Included"
+            },
+            "img": "https://hotelklimtxalapa.com/wp-content/uploads/2022/06/Habitacion-Sencilla-scaled.jpg"
+        },
+        {
+            "roomNumber": "2",
+            "roomType": "Suite",
+            "price": "95.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Included",
+                "wifi": "Included",
+                "airConditioning": "Included"
+            },
+            "img": "https://aquamarinamanta.com/wp-content/uploads/2019/06/estandar-1170x780.jpg",
+            "id": "7015"
+        },
+        {
+            "id": "39c0",
+            "roomNumber": "3",
+            "roomType": "Familiar",
+            "price": "130.00",
+            "beds": "3",
+            "bathrooms": "2",
+            "services": {
+                "breakfast": "Included",
+                "wifi": "Included",
+                "airConditioning": "Included"
+            },
+            "img": "https://hotelgrandpark.com.co/wp-content/uploads/2023/08/suite-familiar-2-1-scaled.jpg"
+        },
+        {
+            "roomNumber": "4",
+            "roomType": "Single",
+            "price": "40.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Not included",
+                "wifi": "Included",
+                "airConditioning": "Not included"
+            },
+            "img": "https://scdn.aro.ie/Sites/50/imperialhotels2022/uploads/images/FullLengthImages/Large/Royal_National_Standard_Single_4.jpg",
+            "id": "b24f"
+        },
+        {
+            "id": "ea6b",
+            "roomNumber": "5",
+            "roomType": "Suite",
+            "price": "120.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Included",
+                "wifi": "Included",
+                "airConditioning": "Included"
+            },
+            "img": "https://www.baycapitaldanang.com/wp-content/uploads/2023/03/xPresidential_Suite_Bay_Capital_Danang_Hotel_1920x.jpg.pagespeed.ic.gYdbhwt9Vo.jpg"
+        },
+        {
+            "id": "3892",
+            "roomNumber": "6",
+            "roomType": "Familiar",
+            "price": "110.00",
+            "beds": "3",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Included",
+                "wifi": "Included",
+                "airConditioning": "Not included"
+            },
+            "img": "https://www.harlingfordhotel.com/wp-content/uploads/2023/09/sup-quad.jpg"
+        },
+        {
+            "id": "bb12",
+            "roomNumber": "7",
+            "roomType": "Single",
+            "price": "60.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Included",
+                "wifi": "Included",
+                "airConditioning": "Not included"
+            },
+            "img": "https://www.berjayahotel.com/sites/default/files/hotel-room-type/london/c1-classic-single-room.jpg"
+        },
+        {
+            "id": "fdbf",
+            "roomNumber": "8",
+            "roomType": "Suite",
+            "price": "70.00",
+            "beds": "1",
+            "bathrooms": "1",
+            "services": {
+                "breakfast": "Not included",
+                "wifi": "Included",
+                "airConditioning": "Not included"
+            },
+            "img": "https://www.theparkhotels.com/images/site-specific/chennai/rooms-suites-min.jpg"
+        }
+    ]
+}

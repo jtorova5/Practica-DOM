@@ -1,0 +1,145 @@
+<!-- 
+Full Name: Jhonatan Toro Vásquez
+Clan: Clan Gates
+Date: 05/06/2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Come to the perfect place to have a great rest. We are the best hotel complex you could ever find!" />
+  <meta name="keywords"
+    content="riwi, JavaScript, Hotel, Rest, Fun, Luxury, Travel, Room, Jhonatan, Toro, Vásquez, jtorova5">
+  <meta name="sitedomain" content="https://riwi.io">
+  <meta name="organization" content="RIWI_CLAN_GATES">
+  <meta name="author" content="Jhonatan Toro Vásquez">
+  <meta name="designer" content="Jhonatan Toro Vásquez">
+  <meta name="copyright" content="© 2024 Riwi. All rights reserved">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="revisit-after" content="15days">
+  <link rel="shortcut icon" href="https://logos-world.net/wp-content/uploads/2023/05/Aquaman-Logo.png"
+    type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- nav bar -->
+    <nav class=" navbar navbar-expand-lg bg-light position-sticky top-0 z-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Atlantis</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <div class=" text-center">
+            <button type="button" class="btn btn-secondary" id="btn-log-out">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main class="container">
+    <!-- form section -->
+    <section class="d-flex justify-content-center align-items-center vh-50 my-5">
+      <!-- form -->
+      <form class="w-50 text-center">
+        <div class="text-center">
+          <h1 class="h3 mb-3 fw-normal">Room register</h1>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="room-number" required>
+          <label for="room-number">Room number</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="room-type" required>
+          <label for="room-type">Room type</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="price" required>
+          <label for="price">Price per nigth (USD)</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="beds" required>
+          <label for="beds">Beds</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="bathrooms" required>
+          <label for="bathrooms">Bathrooms</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="breakfast" required>
+          <label for="breakfast">Breakfast</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="wifi" required>
+          <label for="wifi">Wifi</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="air-conditioning" required>
+          <label for="air-conditioning">Air conditioning (A/C)</label>
+        </div>
+
+        <div class="form-floating my-2">
+          <input type="text" class="form-control" id="img" required>
+          <label for="img">URL img</label>
+        </div>
+
+        <button class="btn btn-primary w-25 py-2" type="submit">Create</button>
+      </form>
+    </section>
+
+    <!-- table section -->
+    </section>
+    <!-- table -->
+    <table class="table">
+      <thead class="text-center">
+        <tr>
+          <th scope="col">Room number</th>
+          <th scope="col">Room type</th>
+          <th scope="col">Price per nigth (USD)</th>
+          <th scope="col">Beds</th>
+          <th scope="col">Bathrooms</th>
+          <th scope="col">Breakfast</th>
+          <th scope="col">Wifi</th>
+          <th scope="col">Air conditioning (A/C)</th>
+          <th scope="col">Options</th>
+        </tr>
+      </thead>
+
+      <tbody class="text-center"></tbody>
+
+    </table>
+    <section>
+
+  </main>
+
+  <!-- footer -->
+  <footer></footer>
+
+  <!-- linking js -->
+  <script type="module" src="./../js/dashboard.js"></script>
+</body>
+
+</html>
